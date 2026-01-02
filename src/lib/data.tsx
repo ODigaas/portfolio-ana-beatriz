@@ -281,13 +281,10 @@ export const PROJECTS: ProjectDetails[] = [
     technologies: [
       'Humanização em Saúde',
       'Filosofia das Ciências da Saúde',
-      'Ética e Bioética',
       'Empatia Crítica',
       'Comunicação Interpessoal',
-      'Formação Humanística',
       'Pensamento Analítico',
       'Cultura de Acolhimento',
-      'Diversidade e Inclusão',
       'Análise Literária e Filosófica',
     ],
   },

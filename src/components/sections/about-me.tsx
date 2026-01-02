@@ -34,29 +34,16 @@ const AboutMeSection = () => {
             Que tal me conhecer um pouco mais?
           </Typography>
           <Typography>
-           Me chamo Ana Beatriz, sou estudante de Psicologia e apaixonada por
-           entender o comportamento humano em suas múltiplas dimensões. Nesse
-           percurso, complemento minha formação com cursos nas áreas de Gestão
-           Organizacional e de Talentos, com um olhar especial para a importância do
-           ambiente laboral na saúde mental.
+           Me chamo Ana Beatriz, sou estudante de Psicologia e apaixonada por entender o comportamento humano em suas múltiplas dimensões. Nesse percurso, complemento minha formação com cursos nas áreas de Gestão Organizacional e de Talentos, com um olhar especial para a importância do ambiente laboral na saúde mental. 
           </Typography>
           <Typography>
-            Além disso, sou entusiasta da Neurociência e busco integrar os fundamentos
-            da neurofisiologia à prática clínica e organizacional. Bem como a literatura
-            que também me acompanha de forma constante, sendo fonte de reflexão e
-            conhecimento.
+           Além disso, sou entusiasta da Neurociência e busco integrar os fundamentos da neurofisiologia à prática clínica e organizacional. Bem como a literatura que também me acompanha de forma constante, sendo fonte de reflexão e conhecimento.
           </Typography>
           <Typography>
-            Atualmente, sou voluntária em um Centro de Atenção Integrada à Saúde
-            Mental, vivenciando práticas multiprofissionais voltadas ao cuidado em saúde
-            mental. Paralelamente, sou professora voluntária de inglês em uma ONG,
-            onde ensino crianças e adolescentes em um projeto que une educação,
-            afeto e propósito.
+           Em 2025, fui voluntária em um Centro de Atenção Integrada à Saúde Mental, vivenciando práticas multiprofissionais voltadas ao cuidado em saúde mental. Paralelamente, sou professora voluntária de inglês em uma ONG, onde ensino crianças e adolescentes em um projeto que une educação, afeto e propósito.
           </Typography>
           <Typography>
-            Acredito na potência do diálogo, do aprendizado contínuo e da construção
-            conjunta, por isso, será um prazer compartilhar essa jornada com você.
-            Vamos juntos?🌻
+           Acredito na potência do diálogo, do aprendizado contínuo e da construção conjunta, por isso, será um prazer compartilhar essa jornada com você. Vamos Juntos?🌻
           </Typography>
         </div>
       </div>
