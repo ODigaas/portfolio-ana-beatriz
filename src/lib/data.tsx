@@ -23,9 +23,9 @@ import {
 } from '@/lib/types';
 
 export const EXTERNAL_LINKS = {
-  github: 'https://github.com/seu-usuario',
-  linkedin: 'https://www.linkedin.com/in/ana-beatriz-alencar-ferreira/',
-  instagram: 'https://www.instagram.com/seu-perfil/'
+  github: 'https://github.com/ODigaas/portfolio-ana-beatriz',
+  linkedin: 'https://www.linkedin.com/in/analistarh-anaalencar/',
+  instagram: 'https://www.instagram.com/bia.alencarf/'
 };
 
 export const NAV_LINKS = [

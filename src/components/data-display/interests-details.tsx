@@ -10,7 +10,7 @@ const InterestsDetails = ({
   personAvatar,
 }: TestimonialProps) => {
   return (
-    <Card className="flex flex-col items-center gap-6 p-8 md:p-10 h-full w-full shadow-md bg-white dark:bg-gray-900">
+    <Card className="flex flex-col items-center gap-6 p-8 md:p-10 h-full w-full shadow-md bg-white dark:">
       
       {/* Container da Imagem: Ajustamos para h-20 e a imagem para h-16 (64px) */}
       <div className="flex items-center justify-center h-20 w-full">
@@ -29,24 +29,24 @@ const InterestsDetails = ({
           <ul className="flex flex-col items-center gap-1 w-full p-0">
             {testimonial.map((item, index) => (
               <li key={index} className="list-none w-full">
-                <Typography className="text-center text-gray-600 break-words leading-snug">
+                <Typography className="text-center break-words leading-snug">
                   {item}
                 </Typography>
               </li>
             ))}
           </ul>
         ) : (
-          <Typography className="text-center italic text-gray-600 break-words leading-relaxed">
+          <Typography className="text-center italic  break-words leading-relaxed">
             &quot;{testimonial}&quot;
           </Typography>
         )}
       </div>
 
       <div className="flex flex-col items-center gap-1 mt-auto pt-4 border-t border-gray-100 dark:border-gray-800 w-full">
-        <Typography variant="subtitle" className="font-bold text-gray-900 dark:text-gray-100 text-center uppercase tracking-wider text-sm">
+        <Typography variant="subtitle" className="font-bold text-center tracking-wider text-sm">
           {personName}
         </Typography>
-        <Typography variant="body3" className="text-gray-500 text-center">
+        <Typography variant="body3" className=" text-center">
           {title}
         </Typography>
       </div>
