@@ -123,7 +123,7 @@ export const COURSES = [
   {
     logo: '/images/logos/UFRGS.png',
     logoAlt: 'URFRGS logo',
-    position: 'Universidade Federal do Rio Grande do Sul',
+    position: 'Universidade Federal do RS',
     categorycourse: 'Cursos Livres',
     summary: [
       'Neurociência Integrativa - Sinapses',
