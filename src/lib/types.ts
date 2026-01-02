@@ -13,7 +13,7 @@ export type ExperienceDetails = {
   logoAlt: string;
   position: string;
   currentlyWorkHere?: boolean;
-  startDate: Date;
+  startDate?: Date;
   endDate?: Date;
   summary: string[];
 };
@@ -29,13 +29,7 @@ export type ProjectDetails = {
 export type TestimonialDetails = {
   personName: string;
   personAvatar?: string | StaticImageData;
-  testimonial: string;
+  avatar?: string | StaticImageData;
+  testimonial: string | string[];
   title: string;
-};
-
-export interface TestimoniaDetails {
-  personName: string;
-  title: string;
-  testimonial: string | string[]; // Permite que seja texto ou lista
-  avatar?: string;
-};
+}

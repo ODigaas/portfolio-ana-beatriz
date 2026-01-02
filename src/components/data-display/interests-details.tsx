@@ -5,28 +5,26 @@ import { TestimonialDetails as TestimonialProps } from '@/lib/types';
 
 const InterestsDetails = ({
   personName,
-  testimonial, // É esta propriedade que contém a lista de interesses
+  testimonial,
   title,
-  avatar,
+  personAvatar,
 }: TestimonialProps) => {
   return (
-    <Card className="flex flex-col items-center gap-6 p-8 md:p-10 h-full w-full shadow-md">
+    <Card className="flex flex-col items-center gap-6 p-8 md:p-10 h-full w-full shadow-md bg-white dark:bg-gray-900">
       
-      {/* Container da Logo com tamanho fixo */}
-      <div className="flex items-center justify-center h-24 w-full">
-        <div className="relative h-20 w-20">
+      {/* Container da Imagem: Ajustamos para h-20 e a imagem para h-16 (64px) */}
+      <div className="flex items-center justify-center h-20 w-full">
+        <div className="relative h-16 w-16">
           <Image
-            src={avatar || '/images/logos/avatar-dummy.svg'}
-            alt={`${personName} logo`}
+            src={personAvatar!}
+            alt={`${personName} avatar`}
             fill
-            className="object-contain"
+            className="object-contain" // Mantém a proporção da logo sem cortar
           />
         </div>
       </div>
 
-      {/* Container de Texto corrigido */}
       <div className="flex flex-col items-center justify-start flex-grow w-full gap-2">
-        {/* Mudamos de Interests para testimonial aqui na linha 30 */}
         {Array.isArray(testimonial) ? (
           <ul className="flex flex-col items-center gap-1 w-full p-0">
             {testimonial.map((item, index) => (
@@ -44,9 +42,8 @@ const InterestsDetails = ({
         )}
       </div>
 
-      {/* Rodapé fixo na base */}
-      <div className="flex flex-col items-center gap-1 mt-auto pt-4 border-t border-gray-100 w-full">
-        <Typography variant="subtitle" className="font-bold text-gray-900 text-center uppercase tracking-wider text-sm">
+      <div className="flex flex-col items-center gap-1 mt-auto pt-4 border-t border-gray-100 dark:border-gray-800 w-full">
+        <Typography variant="subtitle" className="font-bold text-gray-900 dark:text-gray-100 text-center uppercase tracking-wider text-sm">
           {personName}
         </Typography>
         <Typography variant="body3" className="text-gray-500 text-center">

@@ -11,6 +11,10 @@ import AvatarMel from '/public/images/avatar-mel.png';
 import AvatarPedro from '/public/images/avatar-pedro.png';
 import AvatarDiego from '/public/images/avatar-diego.png';
 
+import AvatarAdm from '/public/images/logos/Administração.png';
+import AvatarPsi from '/public/images/logos/Psicologia.png';
+import AvatarGes from '/public/images/logos/Gestão de Talentos.png';
+
 import {
   ExperienceDetails,
   ProjectDetails,
@@ -18,6 +22,11 @@ import {
   TestimonialDetails,
 } from '@/lib/types';
 
+export const EXTERNAL_LINKS = {
+  github: 'https://github.com/seu-usuario',
+  linkedin: 'https://www.linkedin.com/in/ana-beatriz-alencar-ferreira/',
+  instagram: 'https://www.instagram.com/seu-perfil/'
+};
 
 export const NAV_LINKS = [
   {
@@ -68,7 +77,7 @@ export const SOCIAL_LINKS = [
 export const INTERESTS = [
   {
     personName: 'Administração',
-    avatar: '/images/logos/Administração.png',
+    personAvatar: AvatarAdm,
     testimonial: [
       '◦ Word',
       '◦ Excel',
@@ -80,7 +89,7 @@ export const INTERESTS = [
   },
   {
     personName: 'Psicologia',
-    avatar: '/images/logos/Psicologia.png', 
+    personAvatar: AvatarPsi, 
     testimonial: [
       '◦ TEA',
       '◦ Neurociência',
@@ -92,7 +101,7 @@ export const INTERESTS = [
   },
   {
     personName: 'Gestão de Talentos',
-    avatar: '/images/logos/Gestão de Talentos.png',
+    personAvatar: AvatarGes,
     testimonial: [
       '◦ PDI',
       '◦ 5W2H',
