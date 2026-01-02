@@ -33,7 +33,7 @@ export type TestimonialDetails = {
   title: string;
 };
 
-export interface TestimonialDetails {
+export interface TestimoniaDetails {
   personName: string;
   title: string;
   testimonial: string | string[]; // Permite que seja texto ou lista
