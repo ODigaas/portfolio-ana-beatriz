@@ -1,11 +1,15 @@
 import { Linkedin, InstagramIcon, PhoneCall, Mail } from 'lucide-react';
 
 import LogoIpcl from '/public/images/logos/ipcl.svg';
+import StepUp from '/public/images/logos/StepUp.png';
+
 
 import ProjectGreen from '/public/images/project-green.png';
 import ProjectAlvoCerto from '/public/images/project-alvo-certo.png';
 import ProjectPluralmente from '/public/images/project-pluralmente.png';
 import ProjectLabhum from '/public/images/project-labhum.png';
+import ProjectTrinusJR from 'public/images/ProjectTrinusJR.jpeg';
+
 
 import AvatarMel from '/public/images/avatar-mel.png';
 import AvatarPedro from '/public/images/avatar-pedro.png';
@@ -130,6 +134,21 @@ export const COURSES = [
     ],
   },
   {
+    logo: '/images/logos/NIFESP.png',
+    logoAlt: 'UNIFESP logo',
+    width: 120,
+    height: 60,
+    position: 'Universidade Federal de São Paulo - Bacharelado, Psicologia',
+    categorycourse: 'Bacharelado, Psicologia',
+    currentlyWorkHere: true,
+    startDate: new Date(2025, 2),
+    summary: [
+      'Psicosomática',
+      'Psicoterapia',
+      'Psicopatologia',
+    ],
+  },
+  {
     logo: '/images/logos/UFRGS.png',
     logoAlt: 'URFRGS logo',
     position: 'Universidade Federal do RS',
@@ -210,6 +229,21 @@ export const EXPERIENCES: ExperienceDetails[] = [
       'Emissão de notas fiscais',
     ],
   },
+  {
+    logo: StepUp,
+    logoAlt: 'Step Up - Escola de idiomas · Freelancer',
+    position: 'Step Up - Escola de idiomas • English Teacher',
+    startDate: new Date(2026, 2),
+    currentlyWorkHere: true,
+    summary: [
+      'Ministração de aulas para níveis básico (A2), intermediário (B2) e avançado (C1)',
+      'Atendimento a diferentes faixas etárias',
+      'Foco no desenvolvimento da fluência e comunicação',
+      'Abordagem integral das habilidades: compreensão auditiva, fala, leitura e escrita',
+      'Aplicação de metodologias ativas com materiais de editoras renomadas',
+      'Integração de gramática a tópicos contemporâneos',
+    ],
+  },
 ];
 
 export const PROJECTS: ProjectDetails[] = [
@@ -286,6 +320,22 @@ export const PROJECTS: ProjectDetails[] = [
       'Pensamento Analítico',
       'Cultura de Acolhimento',
       'Análise Literária e Filosófica',
+    ],
+  },
+  {
+    name: '💡 Trinus Jr.: Bussiness partner',
+    description:
+      'Na Trinus Jr., iniciei minha trajetória como Trainee e hoje ocupo a posição de Business Partner, atuando como o elo entre o desenvolvimento humano (DHO) e os resultados da empresa júnior. Em meu dia a dia, sou responsável por acompanhar e manter a comunicação alinhada com as diretorias de Marketing e Projetos, garantindo o suporte necessário para as lideranças. Minha atuação envolve o diagnóstico do ambiente de trabalho por meio da análise de pesquisas de clima organizacional e o gerenciamento de dados internos para orientar a tomada de decisão. Além disso, analiso e participo de processos de feedback para impulsionar o crescimento individual dos membros e melhorias na equipe e auxilio ativamente na implementação de novas estratégias corporativas, traduzindo as necessidades da equipe em ações concretas que otimizam os processos e fortalecem o negócio.',
+    url: 'https://www.instagram.com/trinus.jr/',
+    previewImage: ProjectTrinusJR,
+    technologies: [
+      'Gestão de Pessoas',
+      'Empresa Jr.',
+      'Desenvolvimento Humano',
+      'Business Partner',
+      'Pensamento Analítico',
+      'People Analytics',
+      'Gestão de Processos',
     ],
   },
 ];
