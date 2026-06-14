@@ -119,21 +119,6 @@ export const INTERESTS = [
 
 export const COURSES = [
   {
-    logo: '/images/logos/SPDM.png',
-    logoAlt: 'FPCS logo',
-    width: 120,
-    height: 60,
-    position: 'Faculdade Paulista de Ciências da Saúde - FPCS',
-    categorycourse: 'Bacharelado, Psicologia',
-    currentlyWorkHere: true,
-    startDate: new Date(2025, 2),
-    summary: [
-      'Psicologia hospitalar, escolar, social e organizacional',
-      'Psicoterapia (diversas abordagens)',
-      'Psicopatologia básica',
-    ],
-  },
-  {
     logo: '/images/logos/NIFESP.png',
     logoAlt: 'UNIFESP logo',
     width: 120,
