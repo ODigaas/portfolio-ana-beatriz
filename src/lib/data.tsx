@@ -66,7 +66,7 @@ export const SOCIAL_LINKS = [
   },
   {
     icon: InstagramIcon,
-    url: 'https://www.instagram.com/bia.alencarf/',
+    url: 'https://www.instagram.com/biaaf.estudos/',
   },
   {
     icon: PhoneCall,
